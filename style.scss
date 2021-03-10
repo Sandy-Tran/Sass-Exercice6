@@ -1,0 +1,37 @@
+@import "./mixins";
+@import "./variables";
+
+
+body{
+  background-color: $backgroundcolor;
+}
+
+.banniere{
+  background-image: url("/Users/Paprikette/VirtualBox  VMs/Toni/Descodeuses/DC_exercices_sass-master/Exercice6/Axolotl3.jpg");
+  height: 200px;
+  background-size: contain;
+  background-repeat: repeat-x;
+}
+
+h1{
+  @include banner;
+}
+
+h3, h4{
+  @include title;
+}
+
+p, li{
+  @include paragraph;
+}
+
+li a{
+  @include ol;
+
+  &:hover{
+    color: $backgroundtitle;
+  }
+  &:visited{
+    color: $linkcolor;
+  }
+}

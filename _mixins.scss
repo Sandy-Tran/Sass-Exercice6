@@ -1,0 +1,26 @@
+@mixin banner {
+  font-size: 2em;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+@mixin title {
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  background-color: $backgroundtitle;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin paragraph {
+  font-size: 1.2em;
+  font-family: "Lato", sans-serif;
+}
+
+@mixin ol {
+  color: black;
+}

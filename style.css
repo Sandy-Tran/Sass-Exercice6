@@ -1,0 +1,45 @@
+body {
+  background-color: #CAE8E0;
+}
+
+.banniere {
+  background-image: url("/Users/Paprikette/VirtualBox  VMs/Toni/Descodeuses/DC_exercices_sass-master/Exercice6/Axolotl3.jpg");
+  height: 200px;
+  background-size: contain;
+  background-repeat: repeat-x;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+h3, h4 {
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  background-color: #F6CBCB;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p, li {
+  font-size: 1.2em;
+  font-family: "Lato", sans-serif;
+}
+
+li a {
+  color: black;
+}
+li a:hover {
+  color: #F6CBCB;
+}
+li a:visited {
+  color: #f2e421;
+}
+
+/*# sourceMappingURL=style.css.map */
